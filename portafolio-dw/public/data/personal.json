@@ -1,0 +1,8 @@
+{
+  "name": "Tu Nombre",
+  "headline": "Estudiante de Ingeniería",
+  "bio": "Breve biografía...",
+  "location": "Costa Rica",
+  "skills": { "frontend": ["React"], "backend": [], "tools": ["Git"] },
+  "links": { "linkedin": "", "github": "" }
+}

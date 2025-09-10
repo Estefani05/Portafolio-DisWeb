@@ -1,0 +1,19 @@
+[
+  {
+    "code": "IC8057",
+    "name": "Introducción al Desarrollo de Páginas Web",
+    "term": "II-2025",
+    "description": "Descripción técnica breve del curso.",
+    "works": [
+      {
+        "title": "Laboratorio 1",
+        "type": "laboratorio",
+        "summary": "Objetivo / problema abordado.",
+        "date": "2025-08-20",
+        "tech": ["HTML","CSS"],
+        "repo": "",
+        "demo": ""
+      }
+    ]
+  }
+]
