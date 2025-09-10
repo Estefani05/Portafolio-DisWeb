@@ -1,0 +1,48 @@
+:root {
+  --color-bg: #FDF0D5;
+  --color-primary: #003049;
+  --color-accent: #1484ca;
+}
+
+body {
+  background: var(--color-bg);
+  color: var(--color-primary);
+}
+
+.header {
+  background: var(--color-primary);
+  color: var(--color-bg);
+}
+
+.button {
+  background: var(--color-accent);
+  color: var(--color-primary);
+}
+
+.navbar {
+  background: var(--color-primary);
+  padding: 1rem;
+}
+
+.navbar-list {
+  list-style: none;
+  display: flex;
+  gap: 2rem;
+  margin: 0;
+  padding: 0;
+}
+
+.navbar-link {
+  color: var(--color-bg);
+  text-decoration: none;
+  font-weight: bold;
+  transition: background 0.2s, color 0.2s;
+  padding: 0.5rem 1rem;
+  border-radius: 0.375rem;
+}
+
+.navbar-link:hover,
+.active-link {
+  background: var(--color-accent);
+  color: #fff;
+}
