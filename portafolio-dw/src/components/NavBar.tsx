@@ -1,4 +1,4 @@
-import React from "react";
+
 import { Link, NavLink } from "react-router-dom";
 import "../styles/colors.css";
 
@@ -13,11 +13,11 @@ export default function NavBar() {
   return (
     <nav className="navbar">
       <div className="max-w-5xl mx-auto px-4 h-14 flex items-center justify-between">
-        <Link to="/" className="font-bold navbar-link">Portafolio</Link>
+        <Link to="/" className="font-bold navbar-link text-2xl">Estefani Valverde</Link>
         <div className="flex gap-2">
           <NavLink to="/" className={cls}>Inicio</NavLink>
           <NavLink to="/profile" className={cls}>Perfil</NavLink>
-          <NavLink to="/courses" className={cls}>Trabajos</NavLink>
+          <NavLink to="/Cursos" className={cls}>Cursos</NavLink>
         </div>
       </div>
     </nav>

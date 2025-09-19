@@ -1,19 +1,131 @@
 [
+
   {
-    "code": "IC8057",
-    "name": "Introducción al Desarrollo de Páginas Web",
-    "term": "II-2025",
-    "description": "Descripción técnica breve del curso.",
-    "works": [
-      {
-        "title": "Laboratorio 1",
-        "type": "laboratorio",
-        "summary": "Objetivo / problema abordado.",
-        "date": "2025-08-20",
-        "tech": ["HTML","CSS"],
-        "repo": "",
-        "demo": ""
-      }
-    ]
-  }
+    "codigo": "IC8057",
+    "nombre": "Curso Introducción al desarrollo de paginas web",
+    "semestre": "II semestre 2025",
+    "descripcion": "El curso Introducción al desarrollo de páginas web (IC8057) está diseñado para brindar las bases en la creación de sitios web. Su objetivo principal es que el estudiante comprenda cómo funcionan las tecnologías esenciales de la web y sea capaz de construir páginas estructuradas, visualmente atractivas y funcionales.",
+    "trabajos": [
+            {
+              "Nombre": "Laboratorio 1",
+              "Tipo": "laboratrio",
+              "Descripcion": "El estudiante investigará y documentará cinco categorías clave del desarrollo web actual,con base en fuentes confiables y ejemplos reales. La documentación se realizará en un archivo README.md estructurado con Markdown.",
+              "Fecha": "10/08/2025",
+              "Tecnologias": "HTML, GitHub, Netlify",
+              "repositorio": "https://github.com/Estefani05/Dise-o-web-Lab1",
+              "desplegado":"https://peaceful-froyo-a4df1e.netlify.app/"
+            },
+            {
+              "Nombre": "Laboratorio 2",
+              "Tipo": "laboratorio",
+              "Descripcion": "Desarrollar una página estática en HTML que simule el sitio web de un evento tecnológico, utilizando estructura semántica completa, contenido variado y elementos de accesibilidad.",
+              "Fecha": "16/08/2025",
+              "Tecnologias": "HTML, GitHub, Netlify",
+              "repositorio": "https://github.com/Estefani05/taller-ciberseguridad",
+              "desplegado": "https://taller-cibersegurid.netlify.app/"
+            },
+            {
+              "Nombre": "Laboratorio 3",
+              "Tipo": "laboratorio",
+              "Descripcion": "Aplicar CSS3 para refinar el sitio del evento del Lab 2, usando selectores, combinadores, pseudo-clases, control del modelo de caja y posicionamiento. Destacar decisiones de especificidad, incluyendo un caso con !important y un estilo en línea.",
+              "Fecha": "25/08/2025",
+              "Tecnologias": "CSS3, HTML, GitHub, Netlify",
+              "repositorio": "https://github.com/Estefani05/taller-ciberseguridad/tree/lab3-selectores-boxmodel",
+              "desplegado": "https://lab3-selectores-boxmodel.netlify.app/"
+            },
+            {
+              "Nombre": "Laboratorio 4",
+              "Tipo": "laboratorio",
+              "Descripcion": "Realizar actividad, responder unas preguntas y un mini caso.",
+              "Fecha": "29/08/2025",
+              "Tecnologias": "HTML",
+              "repositorio": "",
+              "desplegado": ""
+            },
+            {
+              "Nombre": "Laboratorio 5",
+              "Tipo": "laboratorio",
+              "Descripcion": "Convertir el laboratorio 3 en un diseño responsive con tres versiones: móvil, tablet y desktop.",
+              "Fecha": "07/09/2025",
+              "Tecnologias": "CSS3, HTML, GitHub, Netlify",
+              "repositorio": "https://github.com/Estefani05/taller-ciberseguridad/tree/lab5-responsive",
+              "desplegado": "https://serene-dragon-ceec90.netlify.app/"
+            },
+            {
+              "Nombre": "Portafolio",
+              "Tipo": "portafolio",
+              "Descripcion": "Diseñar, desarrollar y mantener un portafolio web personal que integre de manera estructurada y funcional los trabajos desarrollados a lo largo del curso, aplicando progresivamente los conocimientos adquiridos en diseño, desarrollo, control de calidad y despliegue de aplicaciones web.",
+              "Fecha": "19/09/2025",
+              "Tecnologias": "React, GitHub, Netlify",
+              "repositorio": "https://github.com/Estefani05/Portafolio-DisWeb",
+              "desplegado": ""
+            },
+            {
+              "Nombre": "Proyecto 1",
+              "Tipo": "proyecto",
+              "Descripcion": "Desarrollar un prototipo visual interactivo que simule los flujos esenciales de una aplicación bancaria en línea, aplicando principios de accesibilidad, usabilidad, diseño responsive y buenas prácticas de desarrollo web.",
+              "Fecha": "28/09/2025",
+              "Tecnologias": "React, GitHub, Netlify",
+              "repositorio": "",
+              "desplegado": ""
+            }
+          ]
+      },
+
+
+    {
+      "codigo": "IC6831",
+      "nombre": "Curso Computacion y sociedad",
+      "semestre": "II Semestre 2025",
+      "descripcion": "La evaluación de la calidad del software vía verificación y validación puede ahorrar a una organización esfuerzo, tiempo y dinero. Las mejoras en la calidad del software implican usualmente mejoras en la productividad también. Este curso presenta una perspectiva pragmática del control de la calidad del software enmarcado en procesos de ingeniería del software, con énfasis en las técnicas de pruebas y revisiones estáticas, así como los procesos y las actividades del aseguramiento de la calidad.",
+      "trabajos": [
+                {
+                  "Nombre": "Investigacion 1",
+                  "Tipo": "investigacion",
+                  "Descripcion": "Investigar y documentar el estándar de calidad IEEE 15288 y 12207. El objetivo es comprender a fondo los lineamientos, requisitos y aplicaciones de este estándar en el desarrollo de software.",
+                  "Fecha": "22/08/2025",
+                  "Tecnologias": "",
+                  "repositorio": "",
+                  "desplegado": ""
+                },
+                {
+                  "Nombre": "Investigacion 2",
+                  "Tipo": "investigacion",
+                  "Descripcion": "Investigar y documentar el estándar de calidad IEEE 730. El objetivo es comprender a fondo los lineamientos, requisitos y aplicaciones de este estándar en el desarrollo de software.",
+                  "Fecha": "05/09/2025",
+                  "Tecnologias": "",
+                  "repositorio": "",
+                  "desplegado": ""
+                }
+              ]
+    },
+        {
+      "codigo": "IC7900",
+      "nombre": "Curso Aseguramiento de la calidad",
+      "semestre": "II Semestre 2025",
+      "descripcion": "Breve descripcion En este curso, se discute la relación e impacto que ha tenido la tecnología computacional y sus productos con y en diversas actividades y disciplinas humanas. Dentro de estas actividades y disciplinas podemos mencionar a: la historia de la ciencia y la tecnología, la legislación, el trabajo, las relaciones de género, etc. A su vez, se discutirá y estudiará la interacción que existe en ambos sentidos entre la cultura y la tecnología computacional e informática.",
+      "trabajos": [
+                {
+                  "Nombre": "Lectura 1",
+                  "Tipo": "lectura",
+                  "Descripcion": "Lectura: sección 'Tecnología, sociedad y cambios históricos', prólogo del libro 'La sociedad red' de Manuel Castells.",
+                  "Fecha": "11/08/2025",
+                  "Tecnologias": "",
+                  "repositorio": "",
+                  "desplegado": ""
+                },
+                {
+                  "Nombre": "Lectura 2",
+                  "Tipo": "lectura",
+                  "Descripcion": "Lectura del capítulo 3 del libro 'Software Libre para una sociedad libre' de Richard Stallman.",
+                  "Fecha": "25/08/2025",
+                  "Tecnologias": "",
+                  "repositorio": "",
+                  "desplegado": ""
+                }
+              ]
+    }
+
+
+
 ]
