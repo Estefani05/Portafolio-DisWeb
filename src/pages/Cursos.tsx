@@ -1,7 +1,7 @@
 import { useState, useEffect } from "react";
 import Head from "../seo/Head";
 import { useNavigate } from "react-router-dom";
-
+import Trabajos from "./Trabajos";
 
 interface Course {
   codigo: string;
