@@ -8,7 +8,7 @@
     "trabajos": [
             {
               "Nombre": "Laboratorio 1",
-              "Tipo": "laboratrio",
+              "Tipo": "laboratorio",
               "Descripcion": "El estudiante investigará y documentará cinco categorías clave del desarrollo web actual,con base en fuentes confiables y ejemplos reales. La documentación se realizará en un archivo README.md estructurado con Markdown.",
               "Fecha": "10/08/2025",
               "Tecnologias": "HTML, GitHub, Netlify",
@@ -75,7 +75,7 @@
 
     {
       "codigo": "IC6831",
-      "nombre": "Curso Computacion y sociedad",
+      "nombre": "Curso Aseguramiento de la calidad",
       "semestre": "II Semestre 2025",
       "descripcion": "La evaluación de la calidad del software vía verificación y validación puede ahorrar a una organización esfuerzo, tiempo y dinero. Las mejoras en la calidad del software implican usualmente mejoras en la productividad también. Este curso presenta una perspectiva pragmática del control de la calidad del software enmarcado en procesos de ingeniería del software, con énfasis en las técnicas de pruebas y revisiones estáticas, así como los procesos y las actividades del aseguramiento de la calidad.",
       "trabajos": [
@@ -101,7 +101,7 @@
     },
         {
       "codigo": "IC7900",
-      "nombre": "Curso Aseguramiento de la calidad",
+      "nombre": "Curso Computacion y sociedad",
       "semestre": "II Semestre 2025",
       "descripcion": "Breve descripcion En este curso, se discute la relación e impacto que ha tenido la tecnología computacional y sus productos con y en diversas actividades y disciplinas humanas. Dentro de estas actividades y disciplinas podemos mencionar a: la historia de la ciencia y la tecnología, la legislación, el trabajo, las relaciones de género, etc. A su vez, se discutirá y estudiará la interacción que existe en ambos sentidos entre la cultura y la tecnología computacional e informática.",
       "trabajos": [
