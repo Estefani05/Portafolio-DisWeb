@@ -22,6 +22,8 @@ interface trabajo {
 }
 
 
+
+
 export default function Cursos(){
 
     const [courses, setCourses] = useState<Course[]>([]);
@@ -30,10 +32,11 @@ export default function Cursos(){
 
 
       useEffect(() => {
-        fetch("/data/courses.json") // since it's inside public/data/
+        fetch("/data/courses.json")
           .then((res) => res.json())
           .then((json) => setCourses(json));
       }, []);
+
     
       const goToCourse = (title: string,trabajos: trabajo[]) => {
         navigate(`/Trabajos/${title}`,{
