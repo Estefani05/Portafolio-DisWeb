@@ -32,10 +32,10 @@ export default function Cursos(){
 
 
       useEffect(() => {
-  fetch("/data/courses.json")
-    .then((res) => res.json())
-    .then((json) => setCourses(json));
-}, []);
+        fetch("/data/courses.json")
+          .then((res) => res.json())
+          .then((json) => setCourses(json));
+      }, []);
 
     
       const goToCourse = (title: string,trabajos: trabajo[]) => {
