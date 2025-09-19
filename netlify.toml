@@ -1,0 +1,8 @@
+[build]
+  base = "portafolio-dw"
+  command = "npm run build"
+
+  publish = "portafolio-dw/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
