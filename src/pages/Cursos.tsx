@@ -22,6 +22,8 @@ interface trabajo {
 }
 
 
+
+
 export default function Cursos(){
 
     const [courses, setCourses] = useState<Course[]>([]);
