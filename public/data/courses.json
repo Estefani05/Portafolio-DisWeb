@@ -57,7 +57,34 @@
               "Descripcion": "Manipulacion del DOM y eventos con JavaScript para mejorar la interactividad del sitio web del evento tecnológico, incluyendo validación de formularios, menús desplegables y una galería de imágenes.",
               "Fecha": "19/09/2025",
               "Tecnologias": "CSS3, HTML, GitHub",
-              "repositorio": "https://github.com/Estefani05/laboratorio6",
+              "repositorio": "https://github.com/Estefani05/laboratorio6/tree/master",
+              "desplegado": ""
+            },
+            {
+              "Nombre": "Laboratorio 7",
+              "Tipo": "laboratorio",
+              "Descripcion": "Investigar y exponer conceptos fundamentales sobre el consumo de APIs REST .",
+              "Fecha": "26/09/2025",
+              "Tecnologias": "Canva",
+              "repositorio": "",
+              "desplegado": ""
+            },
+            {
+              "Nombre": "Laboratorio 8",
+              "Tipo": "laboratorio",
+              "Descripcion": "Desarrollar una API REST con Node.js y Express  .",
+              "Fecha": "03/10/2025",
+              "Tecnologias": "Supabase, Node.js, Express, Postman",
+              "repositorio": "https://github.com/LuisK19/LAB-8-WEB",
+              "desplegado": ""
+            },
+            {
+              "Nombre": "Laboratorio 9",
+              "Tipo": "laboratorio",
+              "Descripcion": "Diseñar e implementar un servidor GraphQL en Node.js que reemplace los endpoints REST del Lab 8  .",
+              "Fecha": "12/10/2025",
+              "Tecnologias": "Supabase, Node.js, Express, Postman, GraphQL",
+              "repositorio": "https://github.com/LuisK19/LAB-9-WEB",
               "desplegado": ""
             },
             {
