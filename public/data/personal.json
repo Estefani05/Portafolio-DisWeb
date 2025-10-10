@@ -1,8 +1,57 @@
 {
-  "name": "Tu Nombre",
-  "headline": "Estudiante de Ingeniería",
-  "bio": "Breve biografía...",
-  "location": "Costa Rica",
-  "skills": { "frontend": ["React"], "backend": [], "tools": ["Git"] },
-  "links": { "linkedin": "", "github": "" }
+  "@context": "https://schema.org",
+  "@type": "Person",
+  "name": "Estefani Valverde",
+  "alternateName": "Estefani05",
+  "jobTitle": "Estudiante de Ingeniería en Computación",
+  "description": "Estudiante de Ingeniería en Computación en el Instituto Tecnológico de Costa Rica, con experiencia en soporte informático y tecnologías de información, interesada en el desarrollo web y la innovación tecnológica.",
+  "image": "/assets/foto.jpg",
+  "url": "/profile",
+  "sameAs": [
+    "https://www.linkedin.com/in/estefani-valverde-6b0b55296/",
+    "https://github.com/Estefani05"
+  ],
+  "affiliation": {
+    "@type": "CollegeOrUniversity",
+    "name": "Instituto Tecnológico de Costa Rica"
+  },
+  "knowsLanguage": [
+    { "@type": "Language", "name": "Español", "alternateName": "es" },
+    { "@type": "Language", "name": "Inglés",  "alternateName": "en" }
+  ],
+  "skills": [
+    "HTML",
+    "CSS3",
+    "JavaScript",
+    "Java",
+    "C#",
+    "Python",
+    "SQL",
+    "React.js"
+  ],
+  "knowsAbout": [
+    "Desarrollo web",
+    "React",
+    ".NET MVC",
+    "Node.js",
+    "Git",
+    "GitHub",
+    "Bases de datos (MySQL, SQL Server, PostgreSQL)"
+  ],
+  "subjectOf": [
+    {
+      "@type": "CreativeWork",
+      "name": "Currículum en PDF",
+      "url": "/assets/CV-Estefani.pdf",
+      "fileFormat": "application/pdf"
+    }
+  ],
+  "hasOccupation": {
+    "@type": "Occupation",
+    "name": "Estudiante",
+    "occupationalCategory": "Desarrollo de software"
+  },
+  "identifier": [
+    { "@type": "PropertyValue", "propertyID": "github", "value": "Estefani05" }
+  ]
 }

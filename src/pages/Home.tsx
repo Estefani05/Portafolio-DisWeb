@@ -15,7 +15,7 @@ export default function Home(){
 
   return (
     <>
-      <Head title="Inicio | Portafolio" />
+      <Head title="Inicio | Portafolio" favicon="/assets/favicon-home-32.png" />
       <main className="max-w-5xl mx-auto px-4 py-8 flex flex-col items-center text-center">
         <h1 className="text-3xl font-bold mb-2" style={{ color: "var(--color-accent)" }}>
           ¡Bienvenidos a mi portafolio personal.!
