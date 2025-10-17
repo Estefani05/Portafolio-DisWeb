@@ -1,48 +1,7 @@
-import { useEffect, useState } from "react";
 import Head from "../seo/Head";
-
-type Recomendacion = { comentario: string; fecha: string };
+import Giscus from "@giscus/react";
 
 export default function Home() {
-  const [comments, setComments] = useState<Recomendacion[]>([]);
-  const [newComment, setNewComment] = useState("");
-
-  // Al cargar, lee primero de localStorage, si no hay, lee el JSON inicial
-  useEffect(() => {
-    const local = localStorage.getItem("recomendaciones");
-    if (local) {
-      setComments(JSON.parse(local));
-    } else {
-      fetch("/data/recomendaciones.json")
-        .then((res) => res.json())
-        .then((data) => {
-          // Ordenar de más nuevo a más viejo
-          const ordenadas = data.sort(
-            (a: Recomendacion, b: Recomendacion) =>
-              new Date(b.fecha).getTime() - new Date(a.fecha).getTime()
-          );
-          setComments(ordenadas);
-        })
-        .catch(() => setComments([]));
-    }
-  }, []);
-
-  // Guardar en localStorage cada vez que comments cambie
-  useEffect(() => {
-    localStorage.setItem("recomendaciones", JSON.stringify(comments));
-  }, [comments]);
-
-  const handleAddComment = () => {
-    if (newComment.trim() === "") return;
-    const nueva: Recomendacion = {
-      comentario: newComment,
-      fecha: new Date().toISOString(),
-    };
-    // Agrega la nueva recomendación al inicio (más nueva primero)
-    setComments([nueva, ...comments]);
-    setNewComment("");
-  };
-
   return (
     <>
       <Head title="Inicio | Portafolio" favicon="/assets/favicon-home-32.png" />
@@ -50,6 +9,7 @@ export default function Home() {
         <h1 className="text-3xl font-bold mb-2" style={{ color: "var(--color-accent)" }}>
           ¡Bienvenidos a mi portafolio personal.!
         </h1>
+
         <p style={{ color: "var(--color-primary)" }}>
           Soy una estudiante dedicada, trabajadora y honesta, con gran interés en seguir aprendiendo y adaptándome a nuevas tecnologías. Este espacio ha sido creado para mostrar mi desarrollo académico, mis proyectos y mis habilidades, con el propósito de compartir mi crecimiento profesional y personal.
         </p>
@@ -60,40 +20,34 @@ export default function Home() {
           Aprender es crecer cada día, y crecer es compartir lo aprendido.
         </p>
 
-        {/* Sección de Recomendaciones */}
+        {/* ⭐ Recomendaciones persistentes con Giscus (GitHub Discussions) */}
         <section className="mt-12 w-full">
           <h2 className="text-2xl font-bold text-brown-700 mb-4">⭐ Recomendaciones de Compañeros</h2>
           <p className="text-gray-700 mb-6">
-            Deja aquí tu comentario o recomendación sobre mi desempeño, colaboración o habilidades. 
-            ¡Tu opinión es muy valiosa!
+            Deja aquí tu comentario o recomendación sobre mi desempeño, colaboración o habilidades. ¡Tu opinión es muy valiosa!
           </p>
+
           <div className="bg-[#fefefe] shadow-md rounded-lg p-6 border-l-4 border-[#4d230f]">
-            <textarea
-              value={newComment}
-              onChange={(e) => setNewComment(e.target.value)}
-              placeholder="Escribe tu recomendación aquí..."
-              className="w-full border border-gray-300 rounded-md p-3 mb-4 focus:outline-none focus:ring-2 focus:ring-[#4d230f]"
-              rows={3}
-            ></textarea>
-            <button
-              onClick={handleAddComment}
-              className="bg-[#4d230f] text-white px-5 py-2 rounded shadow hover:bg-[#34281d] transition"
-            >
-              Enviar recomendación
-            </button>
+            <Giscus
+              repo="Estefani05/Portafolio-DisWeb"
+              repoId="R_kgDOPnJW6w"
+              category="Recomendaciones"
+              categoryId="DIC_kwDOPnJW684Cwxk9"
+              mapping="specific"
+              term="recomendaciones-home"
+              strict="1"
+              reactionsEnabled="1"
+              emitMetadata="0"
+              inputPosition="bottom"
+              theme="preferred_color_scheme"
+              lang="es"
+              loading="lazy"
+            />
           </div>
-          <div className="mt-6 space-y-4 text-left">
-            {comments.length === 0 ? (
-              <p className="text-gray-500">Aún no hay recomendaciones.</p>
-            ) : (
-              comments.map((c, i) => (
-                <div key={i} className="bg-white shadow-sm rounded-md p-4 border border-gray-200">
-                  <p className="text-gray-700">{c.comentario}</p>
-                  <p className="text-xs text-gray-400 mt-2">{new Date(c.fecha).toLocaleString()}</p>
-                </div>
-              ))
-            )}
-          </div>
+
+          <p className="text-xs text-gray-400 mt-3">
+            *Los comentarios se almacenan en GitHub Discussions (públicos y persistentes). Requiere iniciar sesión con GitHub.
+          </p>
         </section>
       </main>
     </>
