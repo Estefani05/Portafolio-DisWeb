@@ -88,6 +88,42 @@
               "desplegado": ""
             },
             {
+              "Nombre": "Laboratorio 10",
+              "Tipo": "laboratorio",
+              "Descripcion": "Desarrollar un componente en React que consuma un API protegido mediante API Key, aplicando los hooks useState y useEffect para manejar estados, efectos y peticiones asíncronas.",
+              "Fecha": "24/10/2025",
+              "Tecnologias": "React 18+, Fetch API nativa, JavaScript ES6+, CSS3 con diseño adaptable, Vite (para desarrollo rápido), API backend local",
+              "repositorio": "https://github.com/Estefani05/Laboratorio-10/tree/main",
+              "desplegado": ""
+            },
+            {
+              "Nombre": "Laboratorio 11",
+              "Tipo": "laboratorio",
+              "Descripcion": "Actividad de preguntas en clase utilizando Kahoot.",
+              "Fecha": "29/10/2025",
+              "Tecnologias": "Kahoot",
+              "repositorio": "",
+              "desplegado": ""
+            },
+            {
+              "Nombre": "Laboratorio 12",
+              "Tipo": "laboratorio",
+              "Descripcion": "Analizar los diferentes tipos de frameworks mediante una presentación en Canva.",
+              "Fecha": "31/10/2025",
+              "Tecnologias": "Canva",
+              "repositorio": "",
+              "desplegado": ""
+            },
+            {
+              "Nombre": "Laboratorio 13",
+              "Tipo": "laboratorio",
+              "Descripcion": "Diseñar e implementar un asistente conversacional inteligente que sea capaz de responder preguntas sobre el proyecto del banco simulado.",
+              "Fecha": "12/11/2025",
+              "Tecnologias": "React, Node.js, Express, GraphQL, OpenAI API",
+              "repositorio": "",
+              "desplegado": ""
+            },
+            {
               "Nombre": "Portafolio",
               "Tipo": "portafolio",
               "Descripcion": "Diseñar, desarrollar y mantener un portafolio web personal que integre de manera estructurada y funcional los trabajos desarrollados a lo largo del curso, aplicando progresivamente los conocimientos adquiridos en diseño, desarrollo, control de calidad y despliegue de aplicaciones web.",

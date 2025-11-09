@@ -17,7 +17,9 @@ export default function NavBar() {
         <div className="flex gap-2">
           <NavLink to="/" className={cls}>Inicio</NavLink>
           <NavLink to="/profile" className={cls}>Perfil</NavLink>
+          <NavLink to="/aboutMe" className={cls}>Sobre mí</NavLink>
           <NavLink to="/Cursos" className={cls}>Cursos</NavLink>
+         
         </div>
       </div>
     </nav>

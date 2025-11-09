@@ -204,28 +204,7 @@ export default function Profile() {
           </div>
         </section>
 
-        {/* Hobbies e Intereses */}
-        <section className="mt-10">
-          <h2 className="text-2xl font-semibold text-brown-700 mb-4">
-            Hobbies e Intereses
-          </h2>
-          <div className="bg-[#fefefe] shadow-md rounded-lg p-6 border-l-4 border-[#2c170c] space-y-4">
-            <div>
-              <h3 className="font-bold text-lg">Hobbies</h3>
-              <ul className="list-disc pl-6 text-gray-700 space-y-1">
-                <li>🏃 Running</li>
-                <li>📸 Fotografía</li>
-              </ul>
-            </div>
-            <hr className="border-t border-gray-200" />
-            <div>
-              <h3 className="font-bold text-lg">Intereses</h3>
-              <ul className="list-disc pl-6 text-gray-700 space-y-1">
-                <li>🌎 Aprendizaje de idiomas</li>
-              </ul>
-            </div>
-          </div>
-        </section>
+     
 
         {/* Redes profesionales */}
         <section>
