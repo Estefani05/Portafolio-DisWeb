@@ -1,10 +1,28 @@
 <!doctype html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <link id="app-favicon" rel="icon" type="image/png" href="/assets/favicon-home-32.png" />
+    <link rel="stylesheet" href="/src/styles/index.css">
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Vite + React + TS</title>
+    <title>Portafolio</title>
+
+    <!-- Tema inicial: lee preferencia guardada o la del sistema antes de cargar React -->
+    <script>
+      (() => {
+        try {
+          const KEY = "theme"; // "light" | "dark" | "system"
+          const saved = localStorage.getItem(KEY);
+          const system = window.matchMedia("(prefers-color-scheme: dark)").matches ? "dark" : "light";
+          const finalTheme = saved && saved !== "system" ? saved : system;
+          document.documentElement.setAttribute("data-theme", finalTheme);
+        } catch {}
+      })();
+    </script>
+
+    <!-- Sugerencia al navegador para formularios/controles -->
+    <meta name="color-scheme" content="light dark" />
   </head>
   <body>
     <div id="root"></div>

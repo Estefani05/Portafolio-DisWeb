@@ -1,0 +1,138 @@
+:root {
+  /* 🌞 MODO CLARO */
+  --color-bg: #fafafa;
+  --color-card-bg: #ffffff;
+  --color-text: #2b2b2b;
+  --color-heading: #4d230f;      /* Marrón principal */
+  --color-primary: #4d230f;      /* Marrón principal */
+  --color-accent: #8B4513;       /* Marrón más claro para acentos */
+  --color-border: #e0e0e0;
+  --color-chip-bg: #f5f5f5;
+  --color-chip-text: #4d230f;    /* Mismo que primary para consistencia */
+}
+
+[data-theme='dark'] {
+  /* 🌙 MODO OSCURO */
+  --color-bg: #121212;           /* Fondo más oscuro */
+  --color-card-bg: #1e1e1e;      /* Contraste suave con el fondo */
+  --color-text: #e0e0e0;         /* Texto claro pero no completamente blanco */
+  --color-heading: #bf8970;      /* Versión clara del marrón */
+  --color-primary: #8B4513;      /* Marrón adaptado para oscuro */
+  --color-accent: #d4b5a5;       /* Acento más claro para mejor visibilidad */
+  --color-border: #2d2d2d;       /* Bordes sutiles */
+  --color-chip-bg: #2a2a2a;
+  --color-chip-text: #e0e0e0;    /* Mismo que text para consistencia */
+}
+
+/* Fondo general */
+body {
+  background-color: var(--color-bg);
+  color: var(--color-text);
+  transition: all 0.3s ease;
+}
+
+/* Tarjetas, secciones, inputs */
+.card,
+input,
+select,
+textarea,
+section,
+article {
+  background-color: var(--color-card-bg);
+  color: var(--color-text);
+  border: 1px solid var(--color-border);
+  transition: all 0.3s ease;
+}
+
+/* Títulos */
+h1, h2, h3, h4, h5, h6 {
+  color: var(--color-heading);
+  font-weight: 700;
+}
+
+/* Botones */
+button {
+  background-color: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 6px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: all 0.25s ease;
+}
+
+button:hover {
+  background-color: var(--color-accent);
+  transform: translateY(-1px);
+}
+
+/* Navbar */
+.navbar {
+  background: var(--color-primary);
+  color: #fff;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+}
+
+.navbar-link,
+.link {
+  color: #fff;
+  font-weight: 500;
+  transition: all 0.3s ease;
+}
+
+.navbar-link:hover,
+.active-link {
+  background: var(--color-accent);
+  color: #fff;
+}
+
+/* Chips y etiquetas */
+.tag,
+.chip,
+.tech-button {
+  background: var(--color-chip-bg);
+  color: var(--color-chip-text);
+  border: 1px solid var(--color-border);
+  transition: all 0.3s ease;
+  padding: 0.25rem 0.75rem;
+  border-radius: 16px;
+}
+
+.tag:hover,
+.chip:hover,
+.tech-button:hover {
+  background: var(--color-accent);
+  color: #fff;
+  transform: translateY(-1px);
+}
+
+/* Inputs deshabilitados */
+input:disabled,
+select:disabled {
+  background: var(--color-chip-bg);
+  color: var(--color-chip-text);
+  opacity: 0.7;
+}
+
+/* Botón de tema */
+.theme-toggle {
+  background: var(--color-primary);
+  color: #fff;
+  border: none;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.2);
+  transition: all 0.3s ease;
+}
+
+.theme-toggle:hover {
+  background: var(--color-accent);
+  transform: scale(1.1);
+}

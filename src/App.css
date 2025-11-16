@@ -40,3 +40,19 @@
 .read-the-docs {
   color: #888;
 }
+.theme-toggle {
+  position: fixed;
+  top: 1rem;
+  right: 1rem;
+  background: var(--color-accent);
+  color: var(--color-bg);
+  border: none;
+  border-radius: 8px;
+  padding: 0.5rem 1rem;
+  cursor: pointer;
+  transition: opacity 0.3s;
+}
+
+.theme-toggle:hover {
+  opacity: 0.8;
+}
