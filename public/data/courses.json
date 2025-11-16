@@ -120,7 +120,7 @@
               "Descripcion": "Diseñar e implementar un asistente conversacional inteligente que sea capaz de responder preguntas sobre el proyecto del banco simulado.",
               "Fecha": "12/11/2025",
               "Tecnologias": "React, Node.js, Express, GraphQL, OpenAI API",
-              "repositorio": "",
+              "repositorio": "https://github.com/LuisK19/API-BCN",
               "desplegado": ""
             },
             {
