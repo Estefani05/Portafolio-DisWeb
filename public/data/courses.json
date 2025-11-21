@@ -149,6 +149,15 @@
               "Tecnologias": "React, GitHub, Netlify",
               "repositorio": "https://github.com/LuisK19/API-BCN",
               "desplegado": ""
+            },
+            {
+              "Nombre": "Proyecto 3 ",
+              "Tipo": "proyecto",
+              "Descripcion": "El Proyecto 3 tiene como objetivo integrar las dos etapas previas del curso, uniendo elprototipo visual construido en el Proyecto 1 con la API REST desarrollada en el Proyecto 2.",
+              "Fecha": "03/12/2025",
+              "Tecnologias": "React, GitHub, Netlify",
+              "repositorio": "",
+              "desplegado": ""
             }
           ]
       },
