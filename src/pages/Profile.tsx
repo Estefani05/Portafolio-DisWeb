@@ -229,6 +229,46 @@ export default function Profile() {
           </div>
         </section>
 
+
+        {/* Videos explicativos */}
+<section>
+  <h2 className="text-2xl font-semibold text-brown-700 mb-4">
+    Videos explicativos
+  </h2>
+
+  <div className="bg-[#fefefe] shadow-md rounded-lg p-6 border-l-4 border-[#4d230f] space-y-4">
+    <div>
+      <p className="font-semibold text-gray-800">
+        Video explicativo del portafolio
+      </p>
+      <a
+        href="https://youtu.be/yWSgD7BkYoc"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline break-all"
+      >
+        https://youtu.be/yWSgD7BkYoc
+      </a>
+    </div>
+
+    <div>
+      <p className="font-semibold text-gray-800">
+        Cómo desplegar una web en Netlify
+      </p>
+      <a
+        href="https://youtu.be/1qa4c6bg2ew"
+        target="_blank"
+        rel="noopener noreferrer"
+        className="text-blue-600 hover:underline break-all"
+      >
+        https://youtu.be/1qa4c6bg2ew
+      </a>
+    </div>
+  </div>
+</section>
+
+
+
         {/* CV */}
         <section>
           <h2 className="text-2xl font-semibold text-brown-700 mb-4">
